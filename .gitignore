@@ -1,0 +1,26 @@
+# Moi truong Python va cache
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+
+# Thong tin bi mat
+.env
+.env.*
+!.env.example
+
+# Du lieu huan luyen
+/fruit_dataset/
+/fruits-fresh-and-rotten-for-classification/
+
+# Model va ket qua sinh tu dong
+/models*/
+/outputs/
+*.keras
+*.h5
+*.onnx
+
+# File nen
+*.zip
+*.rar
+*.7z
