@@ -1,0 +1,19 @@
+{
+  "protocol": "fruitcare-repeat-v1",
+  "batch_size": 4,
+  "train_seed": 789,
+  "split_seed": 42,
+  "split_fingerprint": "4a2bf502a27eff7a3c44df87d0d6e24f0bc620ffb4a3ebce0e387867a9b9ba7c",
+  "epochs_head": 8,
+  "epochs_fine": 15,
+  "validation_split": 0.2,
+  "epochs_completed": 23,
+  "best_epoch": 19,
+  "best_val_loss": 0.0010772071545943618,
+  "val_accuracy_at_best_loss": 0.9995412826538086,
+  "fit_seconds": 3114.0991234999965,
+  "timing_note": "Wall time from first fit through second compile/fit and history write; includes checkpoint saves, excludes dataset setup and plot.",
+  "script_sha256": "7047a82ceb9c79444cb9e5362ab2255de2e6c0c6d26e795e275377f301e128d1",
+  "tensorflow": "2.18.0",
+  "keras": "3.15.1"
+}
